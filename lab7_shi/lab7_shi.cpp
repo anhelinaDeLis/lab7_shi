@@ -19,6 +19,7 @@ int FennoType(string ss)
     int n;
     try {
         int i = std::stoi(ss); // string to int
+        
         n = i;
     }
     catch (std::invalid_argument const& e) {
